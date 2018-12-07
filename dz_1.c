@@ -7,7 +7,7 @@ int main() {
 	scanf("%f %f %f", &a, &b, &c);
 
 	if (a > (b+c) || b > (a+c) || c > (a+b)){
-		printf("Невалидный треугольник\n");
+		printf("invalid triangle\n");
 	}
 
 	else{
